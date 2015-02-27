@@ -2,7 +2,7 @@
 A collection of tutorials and code for learning rust
 
 ## Get Rust
-To comile the latest version from source:
+To compile the latest version from source:
 
 	git clone https://github.com/rust-lang/rust
 	cd rust
