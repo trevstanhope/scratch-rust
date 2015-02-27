@@ -2,10 +2,17 @@
 A collection of tutorials and code for learning rust
 
 ## Get Rust
-	wget https://static.rust-lang.org/dist/rust-nightly-i686-unknown-linux-gnu.tar.gz
-	tar -zxvf rust-nightly-i686-unknown-linux-gnu.tar.gz
-	cd rust-nightly-i686-unknown-linux-gnu
-	sh install.sh
+To comile the latest version from source:
+
+	git clone https://github.com/rust-lang/rust
+	cd rust
+	./configure
+	make
+	sudo make install
+	
+Alternative script install from the nightly builds:
+
+	curl -s https://static.rust-lang.org/rustup.sh | sudo sh
 	
 ## Reference
 * Examples: http://rustbyexample.com/index.html
